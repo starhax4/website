@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UE Navbar using Flexbox</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling Navbar */
+
+        header{
+            position: sticky;
+            top: 0px;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+        }
+       
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            /* border: 1px solid black; */
+            width: 70vw;
+        }
+        li{
+            list-style: none;
+            list-style-image:none;
+            margin: 24px;
+            padding: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: #333333;
+        }
+        .logo{
+            margin-right: 440px;
+            /* justify-self: flex-start; */
+            font-weight: 700;
+        }
+        /* styling Main  */
+        
+        /* styling hero */
+        .hero{
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+        }
+        .text{
+            text-align: center;
+            font-size: larger;
+            line-height: 180%;
+            margin: 24px;
+            padding: 10px;
+        }
+        .button-cta{
+            background-color: rgb(54, 151, 241);
+            color: #fff;
+            padding: 16px;
+            margin: 24px;
+            border-radius: 10px;
+            border: none;
+            font-size: medium;
+            font-weight: 600;
+        }
+        .button-cta:hover{
+            cursor: pointer;
+            background-color: rgb(38, 145, 245);
+        }
+        h1{
+            font-weight: 500;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="" class="logo"><li>UltraEdit</li></a>
+                <a href=""><li>Product</li></a>
+                <a href=""><li>Pricing</li></a>
+                <a href=""><li>Resources</li></a>
+                <a href=""><li>About</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="big">
+            <div class="hero">
+                <div class="text">
+                    <h1>Download <strong>UltraEdit</strong> for Windows</h1>
+                    <p>Download and try UltraEdit before you Buy it! This trail includes the full version of windows text editor.</p>
+                    <div ><button type="button" class="button-cta">Download Mac or Linux version</button></div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
