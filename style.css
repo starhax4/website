@@ -261,15 +261,14 @@ footer{
 @media screen and (max-width:656px) {
   
 
-  *{
-    text-align: center;
-  }
   .heading{
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
   }
   .sub-text{
     font-size: 18px;
+    text-align: center;
   }
   .hero-btn{
     flex-direction: column;
