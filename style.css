@@ -17,7 +17,7 @@ body {
 
 /* styling Main  */
 .main {
-  background-image: url(/assets/images/bg.jpg);
+  background-image: url(/website/assets/images/bg.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: center center;
